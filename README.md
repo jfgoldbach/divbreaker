@@ -1,4 +1,6 @@
 # divbreaker project
+[🔴 View live](https://jfgoldbach.github.io/divbreaker/)
+
 This is and arcanoid-style game powered purely by javascript with some aid from css.
 
 ## controls
