@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DivBreaker</title>
+    <link rel="icon" href="icon.png" type="image">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/19d2ca0883.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="infoContainer">
+        <div class="lifeContainer"></div>
+        <div class="scoreContainer">
+            <div><span class="highscore">highscore: </span><span id="highscore">0</span></div>
+            <div>
+                <span>Level</span>
+                <span id="level" style="margin-left: 0.33vw;">1</span>
+            </div>
+            <div><span>score: </span><span id="score">0</span></div>
+        </div>
+        <div class="itemContainer"></div>
+        <div class="logoContainer">
+            <div class="createdDiv">
+                <p>Made with</p>
+            </div>
+            <div class="tech-wrapper">
+                <a><i class="fa-brands fa-html5"></i></a>
+                <a target="_blank" href="style.css"><i class="fa-brands fa-css3-alt"></i></a>
+                <a target="_blank" href="script.js"><i class="fa-brands fa-square-js"></i></a>
+            </div>
+            <p style="color: grey; font-size: 1vh; text-align: center;">&copy; 2021-2022 Julian Goldbach</p>
+        </div>
+    </div>
+
+        <div class="mainContainer">
+            <div class="paddle"></div>
+            <div class="ball">
+            </div>
+            <div class="fpsDisplay" id="fpsdisplay">
+                <p id="fps">FPS</p>
+                <p id="showdelta" style="font-weight: normal;">Painttime</p>
+            </div>
+            <p class="ballstat" id="ballstat">0</p>
+        </div>
+
+    <div class="gameOver">
+        <div class="GO-message">
+            <i class="fa-solid fa-skull"></i>
+            <p>Game over</p>
+        </div>
+        <button onClick="window.location.reload(false)">Retry</button>
+    </div>
+
+    <div class="levelShow">LEVEL 1</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
