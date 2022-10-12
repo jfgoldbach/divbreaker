@@ -3,6 +3,8 @@
 
 This is and arcanoid-style game powered purely by javascript with some aid from css.
 
+I started the project at the end of 2021 and started to work on it again after some time in 2022 by making huge changes to the way the layout (Everything scales and gets calculated properly no matter the screen size and window dimensions) works, but also by fixes bugs and adding new features.
+
 ## controls
 **Shift** + **F** -> Show FPS
 
